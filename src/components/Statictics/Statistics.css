@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.counter {
+  min-height: auto;
+  text-align: center;
+  background-color: rgb(213, 255, 63);
+  padding: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  color: rgb(145, 147, 143);
+  background-color: rgb(60, 207, 180);
+  padding: 10px;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(232, 143, 35);
+  margin-right: 10px;
+}
