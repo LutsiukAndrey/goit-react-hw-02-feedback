@@ -21,7 +21,7 @@ export class Counter extends Component {
 }
 
 Counter.propTypes = {
-  good: PropTypes.func,
-  neutral: PropTypes.func,
-  bad: PropTypes.func,
+  good: PropTypes.func.isRequired,
+  neutral: PropTypes.func.isRequired,
+  bad: PropTypes.func.isRequired,
 };
